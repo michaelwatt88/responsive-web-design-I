@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+@media only screen and (min-width: 200px) and (max-width: 499px){
 #wrap{
     display:flex;
     flex-wrap: wrap;
@@ -159,10 +160,138 @@ ul li{
 .copyright{
     text-align: center;
 }
+}
 
 
 
 @media only screen and (min-width: 500px) and (max-width: 800px){
+
+    #wrap{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        margin: 5%;
+      }
+    
+    
+    .content {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        spacing:2px;
+      }
+
+.navbar1{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        spacing:2px;
+}
+    
+.navbar1 img{
+        width:20%;
+        display:flex;
+        flex-direction:row;
+        justify-content: right;
+    }
+    
+.navbar1 ul{
+        width:80%;
+        height:25px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1px solid black;
+      }
+    
+    .mainsection1{
+        width:100%;
+        display:flex;
+        justify-content: center;
+        text-align:center;
+      }
+    
+    .mainsection1 h1{
+        font-size: 48px;
+    }
+    
+    .mainsection1 .getstarted{
+        font-size: 30px;
+        border: 2px solid black;
+        margin: 5%;
+    }
+
+    .mainsection1 .codesnippet{
+        visibility:collapse;
+    }
+
+    
+    .mainsection2{
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align:left;
+        margin: 5%;
+    }    
+    
+  .mainsection2 .mainsectionbox{
+        width:40%;
+        display:flex;
+        flex-direction: row;
+        text-align:left;
+        margin: 5%;
+    }
+
+    
+    .mainsection3{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align:center;
+        margin: 5%;
+    }
+    
+    .mainsection4{
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align:left;
+        margin: 5%;
+    }
+.mainsection4 .mainsectionbox{
+        width:30%;
+        display:flex;
+        flex-direction: row;
+        text-align:left;
+        margin:3.3%
+}
+    
+    .mainsection5{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align:left;
+        margin: 5%;
+    }
+    
+    .copyright{
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1062px){
 
     #wrap{
         display:flex;
