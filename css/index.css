@@ -117,6 +117,10 @@ ul li{
     margin: 5%;
 }
 
+.mainsection1 .codesnippet{
+    display:none;
+}
+
 
 
 .mainsection2{
@@ -180,16 +184,14 @@ ul li{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        spacing:2px;
       }
 
 .navbar1{
         width:100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        spacing:2px;
 }
     
 .navbar1 img{
@@ -222,10 +224,6 @@ ul li{
         font-size: 30px;
         border: 2px solid black;
         margin: 5%;
-    }
-
-    .mainsection1 .codesnippet{
-        visibility:collapse;
     }
 
     
@@ -271,7 +269,6 @@ ul li{
         text-align:left;
         margin:3.3%
 }
-}
     
     .mainsection5{
         width:100%;
@@ -285,7 +282,6 @@ ul li{
     .copyright{
         text-align: center;
     }
-
 }
 
 @media only screen and (min-width: 801px) {
@@ -307,16 +303,14 @@ ul li{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        spacing:2px;
       }
 
 .navbar1{
         width:100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        spacing:2px;
 }
         
 .navbar1 ul{
@@ -334,19 +328,25 @@ ul li{
         justify-content: center;
     }
     
-.mainsection1{
+.mainsection1 {
         width:100%;
         display:flex;
         flex-direction: row;
         justify-content: center;
       }
+
+.mainsection1 div{
+    width:45%;
+}
     
-    .mainsection1 .iod{
-        width:40%;
+     .mainsection1 .iod{
         display:flex;
-        flex-direction: row;
-        text-align:center;
-        margin: 5%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mainsection1 .getstarted{
+        margin: 0 auto;
     }
 
     .mainsection1 .codesnippet{
@@ -354,8 +354,9 @@ ul li{
         display:flex;
         flex-direction: row;
         text-align:center;
-        margin: 5%;
-    }
+        
+    } 
+
         
     .mainsection2{
         width:100%;
