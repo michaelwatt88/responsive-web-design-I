@@ -288,7 +288,7 @@ ul li{
 
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 801px) {
 
     #wrap{
         display:flex;
@@ -338,33 +338,25 @@ ul li{
         width:100%;
         display:flex;
         flex-direction: row;
-        justify-content: space-between;
-        text-align:center;
+        justify-content: center;
       }
     
-    .mainsection1 .IOD{
+    .mainsection1 .iod{
         width:40%;
         display:flex;
         flex-direction: row;
-        text-align:left;
-        margin: 5%;
-    }
-    
-    .mainsection1 .getstarted{
-        font-size: 30px;
-        border: 2px solid black;
+        text-align:center;
         margin: 5%;
     }
 
     .mainsection1 .codesnippet{
-        width: 35%;
+        width:40%;
         display:flex;
         flex-direction: row;
-        justify-content: center;
         text-align:center;
+        margin: 5%;
     }
-
-    
+        
     .mainsection2{
         width:100%;
         display:flex;
