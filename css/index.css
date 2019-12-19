@@ -99,12 +99,22 @@ ul li{
     border: 1px solid black;
   }
 
-.mainsection1{
+.top-bar {
     width:100%;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     text-align:center;
+  }
+
+  .top-bar nav{
+      width: 70%;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .top-bar img{
+      width: 20%;
+      justify-content: center;
   }
 
 .mainsection1 h1{
